@@ -1,0 +1,127 @@
+*{
+    color: white;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #818282;
+}
+.top{
+    background-color: #424b4b;
+    margin-top: 0;
+    padding: 20px;
+}
+.top h1{
+    text-align: center;
+}
+.forca{
+    width: 500px;
+    height: 500px;
+    background-color: #818282;
+    display: flex;
+    margin: 0 auto;
+}
+span{
+    background-color: #f09b82;
+}
+.content{
+    position: relative;
+    flex: 1;
+}
+.send{
+    flex: 2;
+}
+.content > span{
+    background-color: #f09b82;
+    position: absolute;
+}
+.poste{
+    background-color: #424b4b !important;
+    width: 10px;
+    height:300px;
+    top: 100px;
+    left: 20px;
+}
+.plataforma{
+    background-color: #424b4b !important;
+    width: 500px;
+    height: 150px;
+    top: 400px;
+}
+.poste-vertical{
+    background-color: #424b4b !important;
+    width: 150px;
+    height: 10px;
+    top: 100px;
+    left: 20px;
+}
+.cabeca{
+    width: 60px;
+    height: 60px;
+    top: 105px;
+    left: 130px;
+    border-radius: 50%;
+}
+.corpo{
+    width: 10px;
+    height: 120px;
+    top: 150px;
+    left: 155px;
+}
+.tentativas{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #7bc284;
+    border-radius: 50%;
+    transform: translateY(70%);
+}
+.t1{
+    left: 45px;
+}
+.t2{
+    left: 110px;
+}
+.t3{
+    left: 180px;
+}
+.t4{
+    left: 250px;
+}
+.t5{
+    left: 320px;
+}
+.t6{
+    left: 390px;
+}
+.send{
+    text-align: center;
+}
+input{
+    width: 100px;
+    background-color: #a8aaaa;
+}
+button{
+    background-color: #a8aaaa;
+    cursor: pointer;
+    border-radius: 3px;
+}
+h3{
+    text-align: center;
+}
+.palavra{
+    top: 390px;
+    position: relative;
+    width: 500px;
+}
+.place{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    border-bottom: 5px solid white;
+    background-color: #818282;
+}

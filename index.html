@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da forca</title>
+    <link rel="stylesheet" href="forca.css">
+    <script src="forca.js" defer></script>
+</head>
+<body>
+    <div class="top"><h1>Jogo da forca</h1></div>
+    <!--forca-->
+    <div class="send">
+        <h3>digite uma letra por vez</h3>
+        <input type="text" placeholder="Letra" maxlength="1">
+        <button>Confirmar</button>
+    </div>
+    <div class="forca">
+        <div class="content">
+            <span class="poste-vertical"></span>
+            <span class="poste"></span>
+            <span class="plataforma">
+                <span class="tentativas t1"></span>
+                <span class="tentativas t2"></span>
+                <span class="tentativas t3"></span>
+                <span class="tentativas t4"></span>
+                <span class="tentativas t5"></span>
+                <span class="tentativas t6"></span>
+                <h2 style="bottom:5px;transform:translateY(250%);text-align: center;">Tentativas restantes</h2>
+            </span>
+
+            <div class="palavra"></div>
+
+            <span class="cabeca hid"></span>
+            <span class="corpo hid">
+                <span class="braco1 hid" style=" background-color: #f09b82;position: absolute;width: 79px;height: 10px;top: 41px;right: -6px;transform: rotate(-45deg);"></span>
+                <span class="braco2 hid" style=" background-color: #f09b82;position: absolute;width: 79px;height: 10px;top: 41px;right: -63px;transform: rotate(45deg);"></span>
+                <span class="perna1 hid" style=" background-color: #f09b82;position: absolute;width: 79px;height: 10px;top: 134px;right: -6px;transform: rotate(-45deg);"></span>
+                <span class="perna2 hid" style=" background-color: #f09b82;position: absolute;width: 79px;height: 10px;bottom: -24px;right: -61px;transform: rotate(45deg);"></span>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
