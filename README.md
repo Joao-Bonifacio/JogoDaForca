@@ -1,2 +1,3 @@
-# JogoDaForca
-Jogo da Forca em javascript
+# Jogo da Forca
+
+## manipulando strings com JavaScript
