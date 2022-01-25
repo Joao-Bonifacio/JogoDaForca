@@ -36,7 +36,8 @@ var val;
 var verify = document.querySelector('button')
 const game = ()=>{
     if (cont < 6 && palavra_random.length != verify_lenght) {
-        val = document.querySelector('input').value    
+        val = document.querySelector('input').value
+        val = val.toLowerCase()    
         if (palavra_random.includes(val)) {
             index = palavra_random.search(val)
             console.log(palavra_random.search(val))
