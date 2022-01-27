@@ -129,7 +129,7 @@ h3{
 }
 .dica{
     display: inline-block;
-    width: 50px;
+    width: 25px;
     font-size: 25px;
     cursor: pointer;
     transform: translateY(20%);
