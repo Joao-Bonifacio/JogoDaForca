@@ -68,4 +68,11 @@ const game = ()=>{
         location.reload()
     }
 }
+document.querySelector('.dica').addEventListener('click',()=>{
+    if (random <= 2) {
+        alert('dica: é um animal')
+    }else {
+        alert('dica: é um eletrônico')
+    }
+})
 verify.addEventListener('click',game)

@@ -127,3 +127,10 @@ h3{
     border-bottom: 5px solid white;
     background-color: #818282;
 }
+.dica{
+    display: inline-block;
+    width: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    transform: translateY(20%);
+}
