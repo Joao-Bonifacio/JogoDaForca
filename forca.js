@@ -67,6 +67,7 @@ const game = ()=>{
         alert('Você perdeu')
         location.reload()
     }
+    document.querySelector('input').value = ""
 }
 document.querySelector('.dica').addEventListener('click',()=>{
     if (random <= 2) {
