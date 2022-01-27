@@ -15,6 +15,7 @@ for (let i = 0; i < hidden.length; i++) {
 }//escondendo as partes do boneco
 
 //--preparando o cenario----
+var input = document.querySelector('input')
 var random = Math.floor(Math.random() * palavras.length) //gerando valor aleatorio
 var content = document.querySelector('.palavra')
 var palavra_random = palavras[random] //armazena a palavra aleatoria gerada
@@ -36,7 +37,7 @@ var val;
 var verify = document.querySelector('button')
 const game = ()=>{
     if (cont < 6 && palavra_random.length != verify_lenght) {
-        val = document.querySelector('input').value
+        val = input.value
         val = val.toLowerCase()    
         if (palavra_random.includes(val)) {
             index = palavra_random.search(val)
@@ -67,7 +68,8 @@ const game = ()=>{
         alert('Você perdeu')
         location.reload()
     }
-    document.querySelector('input').value = ""
+    input.value = ""
+    input.focus()
 }
 document.querySelector('.dica').addEventListener('click',()=>{
     if (random <= 2) {
